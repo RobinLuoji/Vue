@@ -9,6 +9,10 @@
       url="https://avatars.githubusercontent.com/u/664177?s=88&u=b213da9f4df34b2fc2063a2038dfd476e54ce4a5&v=4" 
       :size="100" 
     />
+    <Avatar 
+      url="https://avatars.githubusercontent.com/u/664177?s=88&u=b213da9f4df34b2fc2063a2038dfd476e54ce4a5&v=4" 
+      :size="100" 
+    />
     
   </div>
   
