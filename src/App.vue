@@ -9,10 +9,8 @@
       url="https://avatars.githubusercontent.com/u/664177?s=88&u=b213da9f4df34b2fc2063a2038dfd476e54ce4a5&v=4" 
       :size="100" 
     />
-    <Avatar 
-      url="https://avatars.githubusercontent.com/u/664177?s=88&u=b213da9f4df34b2fc2063a2038dfd476e54ce4a5&v=4" 
-      :size="100" 
-    />
+    <Icon type="home"/>
+    <Icon type="kefu"/>
     
   </div>
   
@@ -20,9 +18,17 @@
 
 <script>
 import Avatar  from "./components/Avatar";
+import Icon from "./components/Icon"
 
 export default {
   name: 'App',
-  components: { Avatar },
+  components: { Avatar,Icon },
 }
 </script>
+
+<style scoped>
+  .iconfont {
+    color: red;
+    font-size: 16px;
+  }
+</style>
